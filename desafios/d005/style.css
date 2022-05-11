@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --cor0: #D7D9D7;
+    --cor2: #A6A5A4;
+    --cor3: #173F73;
+    --cor4: #113059;
+    --cor5: #082359;
+
+}
+
+header {
+    background-color: var(--cor2);
+    text-align: center;
+    color: var(--cor3);
+    padding: 10px 10px;
+    font: normal normal 1.5em 'Lobster';
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#eu {
+    text-align: center;
+}
+
+img {
+    border-radius: 10px;
+}
+
+body {
+    background-color: var(--cor3);
+    margin: 5% 10%;
+}
+
+main {
+    background-color: var(--cor2);
+    padding: 25px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: auto;
+}
+
+p {
+    text-indent: 30px;
+
+    padding: 20px;
+    text-align: center;
+    box-shadow: 2px 58px 51px -48px rgba(0, 0, 0, 0.75);
+}
+
+h2 {
+    background-image: linear-gradient(to right, var(--cor3), transparent);
+    padding: 10px;
+    margin: 10px -30px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor3);
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--cor0);
+}
